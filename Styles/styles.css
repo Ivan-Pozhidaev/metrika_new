@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+body {
+    font-family: "Manrope", serif;
+    width: 100%;
+    background-color: rgb(245, 245, 245);;
+}
+
+h1,h2,h3,p,a,div,button {
+    color: rgb(18, 18, 18);
+    letter-spacing: -0.03em;
+}
+
+.container_section {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 125px;
+}
+
+section {
+    padding-bottom: 150px;
+}
+
+.section_last {
+    padding-bottom: 30px;
+}
+
+.section_black {
+    padding-top: 151px;
+}
+
+.container_black {
+    background-color: black;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.home_text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+h3 {
+    margin-bottom: 34px;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.description {
+    margin-bottom: 30px;
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.home {
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background-image: url(/resourses/Interior.png);
+}
+
+.home_block {
+    position: absolute;
+    left: 40px;
+    bottom: 42px;
+    width: 430px;
+}
+
+.servises_btn {
+    display: block;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: rgb(173, 24, 24);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 67px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.project_block {
+    margin-bottom: 90px;
+}
+
+.project_image {
+    margin-bottom: 15px;
+}
+
+.projects_name {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.projects_btn {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+}
+
+.all_projects_btn {
+    display: block;
+    width: 100%;
+    height: 153px;
+    font-family:"Manrope", serif;
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    font-size: 30px;
+    line-height: 41px;
+    color: #AD1818;
+    cursor: pointer;
+}
+
+.all_projects_btn:hover {
+    background-color:#AD1818; 
+    color: rgb(245, 245, 245);
+}
+
+.servises_text {
+    margin-left: 3px;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgb(255, 255, 255);
+}
+
+.servises_image {
+    margin-bottom: 15px;
+}
+
+.servises_list_block {
+    margin-bottom: 60px;
+}
+
+.servises_list_block:last-child {
+    margin-bottom: 0;
+}
+
+.logo_link {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    margin-right: 548px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav_link {
+    margin-right: 60px;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_link:last-child {
+    margin-right: 0;
+}
+
+.nav_link:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+.backgroundimage {
+    height: 717px;
+    background-image: url(/resourses/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.backgroung_image_text {
+    width: 443px;
+    padding-top: 575px;
+    font-size: 30px;
+    line-height: 41px;
+    color: rgb(255, 255, 255);
+}
+
+.contacts_text {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contacts_text::after {
+    content: '';
+    position: absolute;
+    top: -38px;
+    left: 0;
+    width: 13px;
+    height: 22px;
+    background-image: url(/resourses/mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts_phone {
+    margin-bottom: 32px;
+}
+
+.contacts_link {
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.contacts_link:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+
+.footer {
+    padding-top: 60px;
+    background-color: black;
+}
+
+.footer_nav {
+    margin: 0 auto;
+    margin-bottom: 87px;
+    width: 460px;
+}
+
+.footer_nav_link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    margin-right: 55px;
+}
+
+.footer_nav_link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.footer_nav_link:hover {
+    opacity: 0.5;
+}
+
+.footer_text {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+}
